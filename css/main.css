@@ -1,0 +1,65 @@
+body{
+	background: #333;
+	color: #FFF;
+}
+.navbar{
+    border-bottom: 3px solid #008ed6;
+    background : #292b2c;
+    opacity: 0.7;
+}
+#home-top-section{
+    background:linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),url(../img/color1.jpg) no-repeat center top;
+    background-attachment: fixed;
+    padding-top: 150px;
+    padding-bottom: 90px;
+    background-size: cover;
+    min-height: 700px;
+    color: white;
+    
+}
+.title-homepage h1{
+        margin: 0px auto;
+}
+#home-top-section .fa {
+    background: #FFF; 
+    padding: 4px; 
+    color: #008ed6;
+    font-size: 30px;
+    border-radius: 5px;
+
+}
+
+.explore-main-section .fa {
+    background: #333; 
+    padding: 4px; 
+    color: #fff;
+    font-size: 30px;
+    border-radius: 5px;
+}
+
+.create-main-section .fa{
+	background: #FFF; 
+    padding: 4px; 
+    color: #008ed6;
+    font-size: 30px;
+    border-radius: 5px;
+}
+
+.share-main-section .fa {
+    background: #333; 
+    padding: 4px; 
+    color: #fff;
+    font-size: 30px;
+    border-radius: 5px;
+
+}
+
+
+@media(max-width: 576px){
+    #home-top-section .title-homepage h1{
+        font-size: 32px;
+		margin-top: 100px;
+    }
+}
+
+
